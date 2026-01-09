@@ -1,10 +1,11 @@
+@Library('shared') _
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building.. Dev-2'
             }
         }
         stage('Test') {
